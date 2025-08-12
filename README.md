@@ -31,4 +31,13 @@ The folder also includes 'remainingYears_stationname.mat' files, which provide a
 
    _Trend calculations are based on annual impact hours averaged across beach profiles located within the same 30-km long coastal segment, as defined in the paper._
 
+3) [Sensitivity Indices](sensitivityIndices) - data for Figure 8. This dataset provides local differential sensitivity indices (S_I) quantifying how changes in individual TWL driving processes influence annual TWL impact hours in the Storm Impact Scale regimes swash, collision, overtopping, and inundation regimes. For each input variable (i.e., relative sea level, seasonality, sea level anomalies, storm surge, significant wave height, peak wave period, and beach slope), we apply ±1 standard deviation perturbations to its full time series while holding all other variables constant, at their original value. Data are provided in individual files for each variable and perturbation direction (i.e., positive or negative/plus or minus): "<variable>_std_plus_diffSens_all.mat" and "<variable>_std_minus_diffSens_all.mat". These files contain a 26 x 4 matrix, where rows represent stations (row order matches the paper and map below), and columns represent regimes:
+    - Row 1: swash
+    - Row 2: collision
+    - Row 3: overtopping
+    - Row 4: inundation
+
+  ![Map of stations](figures/station_map.png)
+*Map of locations of the water level stations (triangles), and wave hindcast nodes (circles). The colors represent the U.S. coastlines, with the Pacific coast as green (a), the Gulf coast as orange, and the Atlantic coast as pink (b). Locations are numbered from 1 to 10 on the Pacific, 11 to 16 on the Gulf, and 17 to 26 on the Atlantic coast, with station names listed in the legend.<img width="468" height="125" alt="image" src="https://github.com/user-attachments/assets/48b7a363-70b4-4d2d-a411-5e88c5e8cbad" />*
+
 
