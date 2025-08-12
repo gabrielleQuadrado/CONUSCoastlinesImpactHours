@@ -35,33 +35,33 @@ The folder also includes 'remainingYears_stationname.mat' files, which provide a
 
 3) [Sensitivity Indices](sensitivityIndices) - data for Figure 8. This dataset provides local differential sensitivity indices (S_I) quantifying how changes in individual TWL driving processes influence annual TWL impact hours in the Storm Impact Scale regimes swash, collision, overtopping, and inundation regimes. For each input variable (i.e., relative sea level, seasonality, sea level anomalies, storm surge, significant wave height, peak wave period, and beach slope), we apply ±1 standard deviation perturbations to its full time series while holding all other variables constant, at their original value. Data are provided in individual files for each variable and perturbation direction (i.e., positive or negative/plus or minus): "<variable>_std_plus_diffSens_all.mat" and "<variable>_std_minus_diffSens_all.mat". These files contain a 26 x 4 matrix, where rows represent stations (row order below), and columns represent regimes in the following order swash (column 1), collision (column 2), overtopping (column 3), and inundation (column 4).
 
-**Station order in sensitivity indices files:**
-   - Row 1: Fernandina Beach, FL
-   - Row 2: Fort Pulaski, GA
-   - Row 3: Charleston, SC
-   - Row 4: Springmaid Pier, SC
-   - Row 5: Duck, NC
-   - Row 6: Beaufort, NC
-   - Row 7: Kiptopeke, VA
-   - Row 8: Lewes, DE
-   - Row 9: Atlantic City, NJ
-   - Row 10: Sandy Hook, NJ
-   - Row 11: Naples, FL
-   - Row 12: Pensacola, FL
-   - Row 13: Apalachicola, FL
-   - Row 14: Grand Isle, LA
-   - Row 15: Galveston, TX
-   - Row 16: Port Isabel, TX
-   - Row 17: Neah Bay, WA
-   - Row 18: Toke Point, WA
-   - Row 19: Astoria, OR
-   - Row 20: South Beach, OR
-   - Row 21: Charleston, OR
-   - Row 22: Crescent City, CA
-   - Row 23: San Francisco, CA
-   - Row 24: Monterey, CA
-   - Row 25: Port San Luis, CA
-   - Row 26: La Jolla, CA
+    **Station order in sensitivity indices files:**
+       - Row 1: Fernandina Beach, FL
+       - Row 2: Fort Pulaski, GA
+       - Row 3: Charleston, SC
+       - Row 4: Springmaid Pier, SC
+       - Row 5: Duck, NC
+       - Row 6: Beaufort, NC
+       - Row 7: Kiptopeke, VA
+       - Row 8: Lewes, DE
+       - Row 9: Atlantic City, NJ
+       - Row 10: Sandy Hook, NJ
+       - Row 11: Naples, FL
+       - Row 12: Pensacola, FL
+       - Row 13: Apalachicola, FL
+       - Row 14: Grand Isle, LA
+       - Row 15: Galveston, TX
+       - Row 16: Port Isabel, TX
+       - Row 17: Neah Bay, WA
+       - Row 18: Toke Point, WA
+       - Row 19: Astoria, OR
+       - Row 20: South Beach, OR
+       - Row 21: Charleston, OR
+       - Row 22: Crescent City, CA
+       - Row 23: San Francisco, CA
+       - Row 24: Monterey, CA
+       - Row 25: Port San Luis, CA
+       - Row 26: La Jolla, CA
 
  <figure>
   <img src="Fig1_MapStudyArea.png" alt="Map of stations" width="800">
