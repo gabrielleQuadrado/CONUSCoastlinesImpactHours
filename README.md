@@ -36,9 +36,13 @@ The folder also includes 'remainingYears_stationname.mat' files, which provide a
     - Row 2: collision
     - Row 3: overtopping
     - Row 4: inundation
+  
+      
 
- ![Map of stations](Fig1_MapStudyArea.png)
+ <figure>
+  <img src="Fig1_MapStudyArea.png" alt="Map of stations" width="300">
+  <figcaption><em>Map of locations of the water level stations (triangles) and wave hindcast nodes (circles). The colors represent the U.S. coastlines, with the Pacific coast as green (a), the Gulf coast as orange, and the Atlantic coast as pink (b). Locations are numbered from 1–10 on the Pacific, 11–16 on the Gulf, and 17–26 on the Atlantic coast, with station names listed in the legend.</em></figcaption>
+</figure>
 
-*Map of locations of the water level stations (triangles) and wave hindcast nodes (circles). The colors represent the U.S. coastlines, with the Pacific coast as green (a), the Gulf coast as orange, and the Atlantic coast as pink (b). Locations are numbered from 1–10 on the Pacific, 11–16 on the Gulf, and 17–26 on the Atlantic coast, with station names listed in the legend.*
 
 
