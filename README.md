@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1036723359.svg)](https://doi.org/10.5281/zenodo.16813680)
+
 # Assessing Impact Hours on Sandy Beaches - Data Release
 Data release to the manuscript "Rising Impact Hours on Sandy Beaches Linked to Total Water Level Variability along U.S. Coastlines".
 
